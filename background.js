@@ -11,7 +11,7 @@ chrome.browserAction.onClicked.addListener(function(){
   } else {
     PLAYING = true
     chrome.browserAction.setBadgeText({text: 'play'})
-    player.src = 'http://shoutmedia.abc.net.au:10326/;'
+    player.src = 'http://live-radio01.mediahubaustralia.com/2TJW/mp3/;'
     player.play()
   }
 
