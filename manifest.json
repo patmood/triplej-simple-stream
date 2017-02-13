@@ -3,7 +3,7 @@
 
   "manifest_version": 2,
   "name": "Triple J Simple Stream With Info",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Simple shortcut for casually streaming Australia's Triple J radio in the background",
   "icons": {
     "128": "images/icon128.png"
@@ -16,7 +16,7 @@
     "default_popup_": "popup.html"
   },
 
-  "author": "Tom Gangemi",
+  "author": "Patrick Moody, Tom Gangemi",
   "background": {
     "page": "background.html",
     "persistent": false
