@@ -41,7 +41,7 @@ var OnDoubleClickListener = function(config){
 };
 
 chrome.browserAction.onClicked.addListener(new OnDoubleClickListener({
-		onDoubleClick: function(tab) {
+		onSingleClick: function(tab) {
 			var player = document.getElementById('audio-player');
 
 			if (PLAYING) {
@@ -56,7 +56,7 @@ chrome.browserAction.onClicked.addListener(new OnDoubleClickListener({
 				player.play();
 			}
 		},
-		onSingleClick: function(tab) {
+		onDoubleClick: function(tab) {
 			getNowPlaying(2);
 		}
 }));
